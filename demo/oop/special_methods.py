@@ -25,4 +25,12 @@ print(p1)  # str(p1)  --> p1.__str__()
 p2 = Person("Abc", 20)
 print(p1 == p2)  # p1.__eq__(p2)
 p3 = Person("Xyz", 30)
-print(p3 > p1)   # p3.__gt__(p1)
+# print(p3 > p1)  # p3.__gt__(p1)
+
+people = [Person("A", 20), Person("C", 15), Person("B", 30)]
+
+for p in sorted(people):
+    print(p)
+
+for p in sorted(people, key=lambda p: p.name):
+    print(p)
