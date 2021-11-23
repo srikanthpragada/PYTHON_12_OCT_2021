@@ -8,3 +8,4 @@ step2 = re.sub(r'\n+', r'\n', step1)
 
 with open(f"story.txt", "wt") as f:
     f.write(step2)
+
