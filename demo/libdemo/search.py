@@ -18,7 +18,6 @@ if len(sys.argv) < 2:
     print("Usage : python search.py pattern [startdir]")
     exit(1)
 
-
 if len(sys.argv) == 3:
     startdir = sys.argv[2]
 else:
