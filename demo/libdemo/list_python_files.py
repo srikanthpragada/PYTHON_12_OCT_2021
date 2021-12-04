@@ -1,6 +1,6 @@
 import os
 
-entries = os.walk(r"c:\classroom\oct12\demo")
+entries = os.walk(r"d:\classroom\oct12\demo")
 
 count = 0
 for name, dirs, files in entries:
